@@ -1,0 +1,83 @@
+{
+  "bookmarks": [
+    {
+      "id": "fqgkefhqgsfjhvqkchjqg",
+      "title": "Google",
+      "link": "https://www.google.fr"
+    },
+    {
+      "id": "c125;qsejkhvgqskdvs",
+      "title": "Wikipedia",
+      "link": "https://fr.wikipedia.org"
+    },
+    {
+      "id": "akzfhoafhqob156sergts435dg",
+      "title": "Amazon",
+      "link": "https://www.amazon.com"
+    }
+  ],
+  "todos": [
+    {
+      "userId": 1,
+      "id": "cnvoqseighâeegserh5w6h46df56hw",
+      "title": "delectus aut autem",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "dv5sq<dfs23d5fwd4vswd",
+      "title": "quis ut nam facilis et officia qui",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "1454sqdef<es5vw<s3d5vws",
+      "title": "fugiat veniam minus",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "s21d3v5wv13df5v1f3dv5f",
+      "title": "et porro tempora",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "<c1c3wdvww1v5w4f32vfr3",
+      "title": "laboriosam mollitia et enim quasi adipisci quia provident illum",
+      "completed": false
+    }
+  ],
+  "notes": [
+    {
+      "userId": 1,
+      "id": "fvwf5b45w4f8b4wff5d2fv4d5vc2",
+      "title": "dolorem eum magni eos aperiam quia",
+      "body": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"
+    },
+    {
+      "userId": 1,
+      "id": "svcs53d5xd2vx5dfvx13dfv8ee2v1c56c2",
+      "title": "magnam facilis autem",
+      "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+    },
+    {
+      "userId": 1,
+      "id": "d5s5vs5dv35sd1df56",
+      "title": "dolorem dolore est ipsam",
+      "body": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae"
+    },
+    {
+      "userId": 1,
+      "id": "d45vx53v8d1xwd4vdf5b1vb45d5d2s56",
+      "title": "nesciunt iure omnis dolorem tempora et accusantium",
+      "body": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
+    },
+    {
+      "userId": 1,
+      "id": "d4vs3d5g4s3r8vr56b1n5h4j8h3,5;4b5",
+      "title": "optio molestias id quia eum",
+      "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+    }
+  ]
+}

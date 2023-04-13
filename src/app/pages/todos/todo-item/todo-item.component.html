@@ -1,0 +1,15 @@
+<div class="todo-item" routerLink="edit-todo">
+  <div class="check-box">
+    <i class="fa fa-check"></i>
+  </div>
+  <p class="todo-text">My 1st Todo</p>
+
+  <div class="todo-item-actions" (click)="$event.stopPropagation()">
+    <div class="btn todo-item-action-btn">
+      <i class="fa fa-pencil"></i>
+    </div>
+    <div class="btn todo-item-action-btn">
+      <i class="fa fa-trash"></i>
+    </div>
+  </div>
+</div>

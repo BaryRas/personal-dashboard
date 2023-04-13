@@ -1,0 +1,40 @@
+<div class="edit-bookmark-wrapper">
+  <!-- <p *ngIf="!bookmark">Bookmark not found</p> -->
+
+  <ng-container>
+    <h2 class="is-bold">{{ bookmark.title }}</h2>
+
+    <form #myForm="ngForm">
+      <div class="form-field">
+        <label class="form-label">Name</label>
+        <input
+          class="textbox"
+          name="name"
+          [(ngModel)]="bookmark.title"
+          type="text"
+          placeholder="e.g. Wikipedia"
+        />
+      </div>
+
+      <div class="form-field">
+        <label class="form-label">URL</label>
+        <input
+          class="textbox"
+          name="url"
+          [(ngModel)]="bookmark.link"
+          type="url"
+          placeholder="e.g. https://wikipedia.com"
+          required
+        />
+      </div>
+
+      <div class="btns-container">
+        <a routerLink="/home" class="btn">Cancel</a>
+        <button type="button" class="btn" (click)="onDelete($event)">
+          Delete
+        </button>
+        <button class="btn align-end" (click)="onSave($event)">Save</button>
+      </div>
+    </form>
+  </ng-container>
+</div>
