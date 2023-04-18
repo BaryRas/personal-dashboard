@@ -27,9 +27,9 @@ const routes: Routes = [
   //   component: EditBookmarkComponent,
   // },
   { path: 'todos/add-todo', component: AddTodoComponent },
-  { path: 'todos/edit-todo', component: EditTodoComponent },
+  { path: 'todos/edit-todo/:id', component: EditTodoComponent },
   { path: 'notes/add-note', component: AddNoteComponent },
-  { path: 'notes/edit-note', component: EditNoteComponent },
+  { path: 'notes/edit-note/:id', component: EditNoteComponent },
 ];
 
 @NgModule({

@@ -1,14 +1,14 @@
-<div class="todo-item" routerLink="edit-todo">
-  <div class="check-box">
+<div class="todo-item" [ngClass]="{ completed: completed }">
+  <div class="check-box" (click)="onChecked($event)">
     <i class="fa fa-check"></i>
   </div>
-  <p class="todo-text">My 1st Todo</p>
+  <p class="todo-text">{{ todo.title }}</p>
 
   <div class="todo-item-actions" (click)="$event.stopPropagation()">
-    <div class="btn todo-item-action-btn">
+    <div class="btn todo-item-action-btn" [routerLink]="'edit-todo/' + todo.id">
       <i class="fa fa-pencil"></i>
     </div>
-    <div class="btn todo-item-action-btn">
+    <div class="btn todo-item-action-btn" (click)="onDelete()">
       <i class="fa fa-trash"></i>
     </div>
   </div>

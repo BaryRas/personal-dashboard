@@ -10,11 +10,13 @@
         <input
           class="textbox"
           name="name"
+          #name="ngModel"
           [(ngModel)]="bookmark.title"
           type="text"
           placeholder="e.g. Wikipedia"
         />
       </div>
+      <!-- #name="ngModel"  usefull for validation -->
 
       <div class="form-field">
         <label class="form-label">URL</label>

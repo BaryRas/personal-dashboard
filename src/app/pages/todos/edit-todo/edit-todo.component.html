@@ -3,11 +3,13 @@
 
   <!-- <p *ngIf="!todo">Todo not found</p> -->
 
-  <form>
+  <form #todoedit="ngForm">
     <div class="form-field">
       <input
         class="textbox"
         name="text"
+        #name="ngModel"
+        [(ngModel)]="todo.title"
         type="text"
         placeholder="Enter todo text..."
         required
@@ -20,8 +22,8 @@
     </div>
 
     <div class="btns-container">
-      <a routerLink="../" class="btn">Cancel</a>
-      <button class="btn align-end">Save</button>
+      <a routerLink="/todos" class="btn">Cancel</a>
+      <button class="btn align-end" (click)="onSave($event)">Save</button>
     </div>
   </form>
 </div>

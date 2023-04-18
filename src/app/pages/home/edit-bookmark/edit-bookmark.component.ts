@@ -9,14 +9,17 @@ import { BookmarkService } from 'src/app/shared/bookmark.service';
   templateUrl: './edit-bookmark.component.html',
   styleUrls: ['./edit-bookmark.component.scss'],
 })
-export class EditBookmarkComponent implements OnInit, OnDestroy {
+export class EditBookmarkComponent implements OnInit {
   bookmark: Bookmark = {
     id: '',
     title: '',
     link: '',
   };
 
+  // userId: string | null = '';
+
   private routeSubscription: Subscription = new Subscription();
+  private bookmarkSubscription: Subscription = new Subscription();
 
   constructor(
     private route: ActivatedRoute,
